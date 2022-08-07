@@ -35,7 +35,7 @@ header {
     padding-left: 30px;
 }
 section {
-    padding: 100px 200px;
+    padding: 100px 100px;
 }
 
 .main {
@@ -105,48 +105,86 @@ section {
     justify-content:left;
     color: #051937;
     font-size: 2.2em;
-    font-weight: 800;
+    font-weight: 500;
     margin-bottom: 30px;
 }
 
+/* -- About me Section -- */
+
+.about-me{
+    border: 5px solid #A8EB12;
+    width: 100%;
+    height: max-content;
+}
+.about-me .title{
+
+    display: flex;
+    color: #A8EB12;
+}
+
 .content {
+    
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-.card {
-    background-color: #fff;
-    width: 40em;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-    border-radius: 10px; 
-    padding: 25px;
-    margin: 15px;
-    transition: 0.7s ease;
-}
-.card:hover {
-    transform: scale(1.1);
+    
 }
 
 
 .inner {
+    width:min-content;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #aae230;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px; 
     width: 100%;
 }
 
-.info .edu{
-    color: #3a6cf4;
-    font-size: 1.2em;
-    font-weight: 700;
-    margin: 10px;
+.warp{
+    /*background-color: #aae230;*/
+    width: 40%; 
+    padding: 25px;
+    margin: 15px;
+    /*border-right: solid #00bf72;*/
+   
+ 
 }
-.info .tec{
-    color: #3a6cf4;
-    font-size: 1.2em;
-    font-weight: 700;
-    margin: 10px;
+.warp p{
+    color: #004d7a;
+    font-size: 1.5em;
+   
+}
+
+.b{
+    width: 1%;
+    border-left: solid #00bf72;
+    margin: 50px;
+}
+.tec{
+    /*background-color: #aae230;*/
+    width: 40%; 
+    padding: 25px;
+    margin: 15px;
+   
+ 
+}
+.tec p{
+    color: #004d7a;
+    font-size: 1.5em;
+
+}
+.skills{
+
+    display: flex;
+}
+
+li{
+    position: relative;
+
 }
 
 /* --Project Section-- */
