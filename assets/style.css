@@ -169,21 +169,23 @@ section {
     width: 40%; 
     padding: 25px;
     margin: 15px;
+    justify-content: center;
    
  
 }
 .tec p{
     color: #004d7a;
-    font-size: 1.5em;
+    font-size: 1.2em;
 
 }
 .skills{
-
-    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+   display: grid;
 }
 
 li{
-    position: relative;
+  
 
 }
 
