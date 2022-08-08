@@ -100,7 +100,7 @@ section {
 }
 
 .social-icons a {
-    color: #fff;
+    color: #00bf72;
     font-size: 1.7em;
     padding-right: 30px;
 }
@@ -356,6 +356,40 @@ li{
     background: #00bf32;
   }
   
+  
+.footer {
+    width: 100%;
+    position: absolute;
+    background-color: #f0f0f0;
+    color: #00bf72; 
+    padding: 2em;
+    display:flexbox;
+    justify-content:center;
+
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.footer-title span {
+    color: #00bf32;
+}
+
+.footer .social-icons{
+    justify-content: center;
+    display: flex;
+    flex: 1;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
 
   
 
