@@ -8,9 +8,9 @@
     scroll-behavior: smooth; 
 }
 
-.body{
+#body{
 
-    padding: 10px;
+    background-color:#051937;
     
 }
 
@@ -45,19 +45,21 @@ section {
 }
 
 .main {
+
     width: 100%;
     min-height: 100vh;
-    display: flex;
-    align-items: center; 
-    background: url(img/background.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    display:block;
+
+   
 }
 .main h2 {
+    
     color: #fff;
     font-size: 1.4em;
     font-weight: 500;
+    text-align: center;
+    padding: 1em 2.1875em;
+
 }
 
 
@@ -67,22 +69,31 @@ section {
     color: #4e9eff;
     font-size: 3em;
     font-weight: 600;
+    
 }
 
 .main h6 {
     color: #fff;
-    width: 45ch;
     font-size: 1.5em;
     font-weight: 200;
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
-.main-btn {
+.cv-btn-contaner{
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.cv-btn {
+
     color: #fff;
-   
-    background-color: #00bf72 ;
+    background-color: #00bf72;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -94,16 +105,12 @@ section {
     transition: 0.7s ease;
 }
 
-.main-btn:hover {
-    background-color: #A8EB12;
+.cv-btn:hover {
+    background-color: #00bf32;
     transform: scale(1.1);
 }
 
-.social-icons a {
-    color: #00bf72;
-    font-size: 1.7em;
-    padding-right: 30px;
-}
+
 
 
 .title {
@@ -111,9 +118,9 @@ section {
     justify-content:left;
     color: #00bf72;
     font-size: 2.2em;
-    font-weight: 500;
+    font-weight: 200;
     margin-bottom: 30px;
-    border-bottom: #00bf32 solid;
+   
 }
 
 /* -- About me Section -- */
@@ -121,63 +128,35 @@ section {
 .about-me{
 
     width: 100%;
-    height: max-content;
+
 }
 
 .content {
 
+    
     display: flex;
-    align-items: center;
     justify-content: space-between;
+   
+   
+    
     
 }
 
 
 .inner {
-    width:min-content;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: #aae230;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-    border-radius: 10px; 
-    width: 100%;
+    width: 50%;
 }
 
 .warp{
-    /*background-color: #aae230;*/
-    width: 40%; 
-    padding: 25px;
-    margin: 15px;
-    /*border-right: solid #00bf72;*/
+    
    
- 
+    
 }
 .warp p{
-    color: #004d7a;
-    font-size: 1.5em;
-   
-}
-
-.b{
-    width: 1%;
-    border-left: solid #00bf72;
-    margin: 50px;
-}
-.tec{
-    /*background-color: #aae230;*/
-    width: 40%; 
-    padding: 25px;
-    margin: 15px;
-    justify-content: center;
-   
- 
-}
-.tec p{
-    color: #004d7a;
-    font-size: 1.2em;
-
+    color: #00bf72;
+    font-size: 1em;
+    display: block;
+       
 }
 .skills{
     margin-top: 10px;
@@ -186,9 +165,21 @@ section {
 }
 
 li{
-    color: #004d7a;
-    font-size: 1.2em;
-    
+    color: #00bf72;
+    font-size: 1em;  
+}
+.my-img{
+
+    width: 20rem;
+    margin-right: 100px;
+    align-items: center;
+}
+.my-img img{
+
+    width: 100%;
+    border-radius: 50%;    
+    border: #00bf72 solid;
+   
 }
 
 /* --Projects Section-- */
@@ -258,19 +249,16 @@ li{
     
     min-height: 100vh;
     width: 100%;
-    background: #fff;
-    
     align-items: center;
     justify-content: center;
 
     
 }
 .container{
-    width: 85%;
-    background: #fff;
+    width: 100%;
     border-radius: 6px;
     padding: 20px 60px 30px 40px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   
   }
   .container .content{
     display: flex;
@@ -296,10 +284,6 @@ li{
     font-size: 30px;
     color: #00bf72;
     margin-bottom: 10px;
-  }
-  .content .left-side .details .topic{
-    font-size: 18px;
-    font-weight: 500;
   }
   .content .left-side .details .text-one{
     font-size: 14px;
@@ -360,8 +344,7 @@ li{
 .footer {
     width: 100%;
     position: absolute;
-    background-color: #f0f0f0;
-    color: #00bf72; 
+     color: #00bf72; 
     padding: 2em;
     display:flexbox;
     justify-content:center;
@@ -385,8 +368,10 @@ li{
     display: flex;
     flex: 1;
 }
-
-.footer .social-icons a{
+.social-icons a {
+    color: #00bf72;
+    font-size: 1.7em;
+    padding-right: 30px;
     font-size: 1.3em;
     padding: 0 12px 0 0;
 }
