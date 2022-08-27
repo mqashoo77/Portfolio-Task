@@ -8,9 +8,7 @@
   --second-color: #4e9eff;
   --second-color-second: #4e9ef1;  
   --titel-color: #fff ; 
-
-
-
+  --titel-color-second: black; 
 }
 
 * {
